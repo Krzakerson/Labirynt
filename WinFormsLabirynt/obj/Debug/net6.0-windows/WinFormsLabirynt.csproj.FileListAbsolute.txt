@@ -16,3 +16,4 @@ C:\Users\Michał\OneDrive\Pulpit\repogithub\Labirynt\WinFormsLabirynt\obj\Debug\
 C:\Users\Michał\OneDrive\Pulpit\repogithub\Labirynt\WinFormsLabirynt\obj\Debug\net6.0-windows\ref\WinFormsLabirynt.dll
 C:\Users\Michał\OneDrive\Pulpit\repogithub\Labirynt\WinFormsLabirynt\obj\Debug\net6.0-windows\WinFormsLabirynt.pdb
 C:\Users\Michał\OneDrive\Pulpit\repogithub\Labirynt\WinFormsLabirynt\obj\Debug\net6.0-windows\WinFormsLabirynt.genruntimeconfig.cache
+C:\Users\Michał\OneDrive\Pulpit\repogithub\Labirynt\WinFormsLabirynt\obj\Debug\net6.0-windows\WinFormsLabirynt.Menu.resources
