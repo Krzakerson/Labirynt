@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Michał Żak programowanie\\desktopowe\\WinFormsLabirynt\\WinFormsLabirynt.csproj",
+      "projectUniqueName": "C:\\Users\\Michał\\OneDrive\\Pulpit\\repogithub\\Labirynt\\WinFormsLabirynt\\WinFormsLabirynt.csproj",
       "projectName": "WinFormsLabirynt",
-      "projectPath": "D:\\Michał Żak programowanie\\desktopowe\\WinFormsLabirynt\\WinFormsLabirynt.csproj",
+      "projectPath": "C:\\Users\\Michał\\OneDrive\\Pulpit\\repogithub\\Labirynt\\WinFormsLabirynt\\WinFormsLabirynt.csproj",
       "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-      "outputPath": "D:\\Michał Żak programowanie\\desktopowe\\WinFormsLabirynt\\obj\\",
+      "outputPath": "C:\\Users\\Michał\\OneDrive\\Pulpit\\repogithub\\Labirynt\\WinFormsLabirynt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
