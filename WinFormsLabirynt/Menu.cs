@@ -16,5 +16,15 @@ namespace WinFormsLabirynt
         {
             InitializeComponent();
         }
+
+        private void btnLabirynt_Click(object sender, EventArgs e)
+        {
+            new Form1().ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
