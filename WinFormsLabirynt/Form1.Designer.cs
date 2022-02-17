@@ -102,7 +102,7 @@
             this.panel4.BackColor = System.Drawing.Color.Red;
             this.panel4.Location = new System.Drawing.Point(156, 120);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(46, 108);
+            this.panel4.Size = new System.Drawing.Size(46, 88);
             this.panel4.TabIndex = 4;
             // 
             // panel5
@@ -164,9 +164,9 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.Red;
-            this.panel12.Location = new System.Drawing.Point(602, 42);
+            this.panel12.Location = new System.Drawing.Point(602, 58);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(46, 124);
+            this.panel12.Size = new System.Drawing.Size(46, 108);
             this.panel12.TabIndex = 4;
             // 
             // Form1
@@ -189,6 +189,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);

@@ -72,6 +72,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnLabirynt);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Menu";
             this.Text = "Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
