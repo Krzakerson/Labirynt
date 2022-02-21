@@ -20,7 +20,7 @@ namespace WinFormsLabirynt
                 pictureBox1.Left -= speed;
             }
 
-            if (moveRight== true && pictureBox1.Left < 646)
+            if (moveRight== true && pictureBox1.Left < 830)
             {
                 pictureBox1.Left += speed;
             }
@@ -35,6 +35,13 @@ namespace WinFormsLabirynt
             {
                 pictureBox1.Top += speed;
             }
+
+            if (pictureBox1.Left <= pictureBox2.Right && pictureBox2.Left <= pictureBox1.Right
+                && pictureBox1.Top <= pictureBox2.Top && pictureBox2.Top <= pictureBox1.Top)
+            {
+                new Win().ShowDialog();
+            }
+
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
@@ -58,6 +65,7 @@ namespace WinFormsLabirynt
             {
                 moveUp = true;
             }
+
 
         }
 

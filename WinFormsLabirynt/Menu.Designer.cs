@@ -38,16 +38,16 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(1, -2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(684, 403);
+            this.pictureBox1.Size = new System.Drawing.Size(683, 403);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // btnLabirynt
             // 
-            this.btnLabirynt.Location = new System.Drawing.Point(119, 242);
+            this.btnLabirynt.Location = new System.Drawing.Point(119, 243);
             this.btnLabirynt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLabirynt.Name = "btnLabirynt";
             this.btnLabirynt.Size = new System.Drawing.Size(123, 69);
@@ -71,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 353);
+            this.ClientSize = new System.Drawing.Size(638, 353);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnLabirynt);
             this.Controls.Add(this.pictureBox1);
