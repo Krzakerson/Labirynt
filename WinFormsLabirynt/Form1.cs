@@ -13,6 +13,7 @@ namespace WinFormsLabirynt
             InitializeComponent();
         }
 
+        public bool open = true;
         private void moveTimerEvent(object sender, EventArgs e)
         {
             if(moveLeft == true && pictureBox1.Left >  0)
@@ -36,10 +37,52 @@ namespace WinFormsLabirynt
                 pictureBox1.Top += speed;
             }
 
-            if (pictureBox1.Left <= pictureBox2.Right && pictureBox2.Left <= pictureBox1.Right
-                && pictureBox1.Top <= pictureBox2.Top && pictureBox2.Top <= pictureBox1.Top)
+            
+
+            foreach(Control x in this.Controls)
             {
-                new Win().ShowDialog();
+                if(x is PictureBox)
+                {
+                    if ((string)x.Tag == "wygrana" && x.Visible == true  )
+                    {
+                       
+                    if (pictureBox1.Bounds.IntersectsWith(x.Bounds) && open == true)
+                        {
+                            open = false;
+                            new Win().ShowDialog();
+                            break;
+                        }
+                        {
+                           
+
+                        }
+                    
+
+                    }
+                }
+            }
+
+            foreach (Control y in this.Controls)
+            {
+                if (y is PictureBox)
+                {
+                    if ((string)y.Tag == "wall" && y.Visible == true)
+                    {
+
+                        if (pictureBox1.Bounds.IntersectsWith(y.Bounds))
+                        {
+                            
+                            
+                           
+                        }
+                        {
+
+
+                        }
+
+
+                    }
+                }
             }
 
         }

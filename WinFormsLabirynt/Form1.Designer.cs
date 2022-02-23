@@ -65,9 +65,10 @@
             this.pictureBox2.Location = new System.Drawing.Point(12, 13);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(199, 82);
+            this.pictureBox2.Size = new System.Drawing.Size(105, 48);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "wygrana";
             // 
             // moveTimer
             // 
@@ -83,6 +84,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(229, 69);
             this.panel1.TabIndex = 2;
+            this.panel1.Tag = "wall";
             // 
             // panel2
             // 
@@ -92,6 +94,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(53, 165);
             this.panel2.TabIndex = 3;
+            this.panel2.Tag = "wall";
             // 
             // panel3
             // 
@@ -101,6 +104,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(229, 61);
             this.panel3.TabIndex = 3;
+            this.panel3.Tag = "wall";
             // 
             // panel4
             // 
@@ -110,6 +114,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(53, 117);
             this.panel4.TabIndex = 4;
+            this.panel4.Tag = "wall";
             // 
             // panel5
             // 
@@ -119,6 +124,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(229, 61);
             this.panel5.TabIndex = 4;
+            this.panel5.Tag = "wall";
             // 
             // panel6
             // 
@@ -128,6 +134,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(48, 131);
             this.panel6.TabIndex = 5;
+            this.panel6.Tag = "wall";
             // 
             // panel7
             // 
@@ -137,6 +144,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(53, 221);
             this.panel7.TabIndex = 4;
+            this.panel7.Tag = "wall";
             // 
             // panel8
             // 
@@ -146,6 +154,7 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(53, 165);
             this.panel8.TabIndex = 4;
+            this.panel8.Tag = "wall";
             // 
             // panel9
             // 
@@ -155,6 +164,7 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(383, 61);
             this.panel9.TabIndex = 4;
+            this.panel9.Tag = "wall";
             // 
             // panel10
             // 
@@ -164,6 +174,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(53, 165);
             this.panel10.TabIndex = 4;
+            this.panel10.Tag = "wall";
             // 
             // panel11
             // 
@@ -173,6 +184,7 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(229, 61);
             this.panel11.TabIndex = 4;
+            this.panel11.Tag = "wall";
             // 
             // panel12
             // 
@@ -182,6 +194,7 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(53, 144);
             this.panel12.TabIndex = 4;
+            this.panel12.Tag = "wall";
             // 
             // Form1
             // 
