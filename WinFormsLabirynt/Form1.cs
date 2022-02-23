@@ -4,7 +4,7 @@ namespace WinFormsLabirynt
     {
         bool moveUp, moveDown, moveLeft, moveRight;
 
-        int speed = 15;
+        int speed = 10;
 
        
 
@@ -14,6 +14,7 @@ namespace WinFormsLabirynt
         }
 
         public bool open = true;
+        public bool losing = true;
         private void moveTimerEvent(object sender, EventArgs e)
         {
             if(moveLeft == true && pictureBox1.Left >  0)
@@ -64,16 +65,17 @@ namespace WinFormsLabirynt
 
             foreach (Control y in this.Controls)
             {
-                if (y is PictureBox)
+                if (y is Panel)
                 {
                     if ((string)y.Tag == "wall" && y.Visible == true)
                     {
 
-                        if (pictureBox1.Bounds.IntersectsWith(y.Bounds))
+                        if (pictureBox1.Bounds.IntersectsWith(y.Bounds) && losing == true)
                         {
-                            
-                            
-                           
+
+                            losing = false;
+                            new Lose().ShowDialog();
+                            Close();
                         }
                         {
 

@@ -16,5 +16,25 @@ namespace WinFormsLabirynt
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbclose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lbRestart_Click(object sender, EventArgs e)
+        {
+            new Form1().ShowDialog();
+        }
     }
 }

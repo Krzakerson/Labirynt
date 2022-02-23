@@ -46,7 +46,7 @@
             // 
             // btnLabirynt
             // 
-            this.btnLabirynt.Location = new System.Drawing.Point(104, 182);
+            this.btnLabirynt.Location = new System.Drawing.Point(59, 182);
             this.btnLabirynt.Name = "btnLabirynt";
             this.btnLabirynt.Size = new System.Drawing.Size(108, 52);
             this.btnLabirynt.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(349, 171);
+            this.button2.Location = new System.Drawing.Point(461, 182);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 52);
             this.button2.TabIndex = 2;
